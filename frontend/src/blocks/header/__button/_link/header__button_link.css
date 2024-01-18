@@ -1,0 +1,12 @@
+.header__button_link {
+    transition: .2s all ease;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.21;
+}
+
+@media screen and (max-width: 767px) {
+    .header__button_link {
+        font-size: 14px;
+    }
+}

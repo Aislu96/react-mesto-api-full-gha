@@ -1,0 +1,10 @@
+.header__menu-wrapper {
+    display: block;
+    min-width: 0;
+}
+
+@media screen and (max-width: 767px){
+    .header {
+        padding-right: 19px;
+    }
+}

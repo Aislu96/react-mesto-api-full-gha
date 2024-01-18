@@ -1,0 +1,14 @@
+.header__nav {
+    animation: append-animate .2s ease-in-out;
+}
+
+@keyframes append-animate {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

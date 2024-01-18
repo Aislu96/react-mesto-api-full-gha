@@ -1,0 +1,9 @@
+.header__button {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .2s all ease;
+}
+
+.header__button:hover {
+    opacity: .6;
+}

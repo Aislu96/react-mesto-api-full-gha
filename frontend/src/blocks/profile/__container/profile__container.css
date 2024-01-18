@@ -1,0 +1,9 @@
+.profile__container {
+    height: 120px;
+    position: relative;
+    width: 120px;
+}
+
+.profile__container:hover .profile__overlay {
+    opacity: 1;
+}

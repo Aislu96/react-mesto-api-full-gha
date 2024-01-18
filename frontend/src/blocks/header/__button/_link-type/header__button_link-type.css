@@ -1,0 +1,8 @@
+.header__button_link-type{
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: hsla(0, 0%, 66%, 1);
+    text-align: center;
+}

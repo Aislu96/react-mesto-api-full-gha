@@ -1,0 +1,8 @@
+.profile__icon {
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 26px;
+    height: 26px;
+}

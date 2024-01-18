@@ -1,0 +1,11 @@
+.element__number {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.73px;
+    color: #000000;
+    text-align: center;
+    min-width: 10px;
+    min-height: 13px;
+    margin: 0;
+    padding: 0;
+}
