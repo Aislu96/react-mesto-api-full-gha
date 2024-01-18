@@ -1,3 +1,18 @@
+# Проект: Место-React
+
+------
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+## Описание проекта:
+
+------
+
+## Функционал:
+
+* [Одностраничный сайт](https://aislu96.github.io/react-mesto-auth/)
+
+------
+
 ## Стек:
 
 * HTML - отображает язык разметки гипертекста.
