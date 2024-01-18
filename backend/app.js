@@ -75,7 +75,7 @@ app.use('/cards', require('./routes/cards'));
 app.use(errorLogger); // подключаем логгер ошибок
 app.use(errors());
 
-app.all('*', (err, req, res, next) => {
+app.all('*', (req, res, next) => {
   next(new NotFoundError('Неправильный путь'));
 });
 
