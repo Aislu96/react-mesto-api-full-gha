@@ -45,8 +45,6 @@ app.use((req, res, next) => {
   return next();
 });
 
-
-
 mongoose.connect(DB_URL);
 
 app.use(requestLogger);
