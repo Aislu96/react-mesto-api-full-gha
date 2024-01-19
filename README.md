@@ -6,13 +6,11 @@
 Сервис Mesto: интерактивная страница, куда можно зарегистрироваться, редактировать профиль и добавлять фотографии, удалять их и ставить лайки.
 Адрес репозитория: https://github.com/Aislu96/react-mesto-api-full-gha
 
-## Ссылки на проект
-
-IP-адрес 158.160.67.59
-
 Frontend https://kharisova.nomoredomainsmonster.ru
 
 Backend https://api.kharisova.nomoredomainsmonster.ru
+
+IP 158.160.67.59
 
 ## Стек:
 
