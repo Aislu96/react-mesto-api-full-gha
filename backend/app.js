@@ -20,8 +20,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
 
 const allowedCors = [
-  'https://kharisova.nomoredomainsmonster.ru',
-  'http://kharisova.nomoredomainsmonster.ru',
+  'https://praktikum.tk',
+  'http://praktikum.tk',
   'localhost:3001',
   'http://localhost:3001',
 ];

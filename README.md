@@ -8,11 +8,11 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.11.190
+IP-адрес 
 
-Frontend https://kharisova.nomoredomainsmonster.ru
+Frontend 
 
-Backend https://api.kharisova.nomoredomainsmonster.ru
+Backend 
 
 ## Стек:
 
