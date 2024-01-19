@@ -79,12 +79,12 @@ app.post('/signup', celebrate({
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
 
-app.use(errorLogger); // подключаем логгер ошибок
-app.use(errors());
-
 app.all('*', (req, res, next) => {
   next(new NotFoundError('Неправильный путь'));
 });
+
+app.use(errorLogger); // подключаем логгер ошибок
+app.use(errors());
 
 app.use(errorHandler);
 app.listen(PORT, () => {

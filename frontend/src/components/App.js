@@ -247,6 +247,7 @@ function App() {
             }
         })
             .catch((err) => {
+                setIsInfoTooltip(false);
                 console.log(err);
             })
             .finally(() => {
