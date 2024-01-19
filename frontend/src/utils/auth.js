@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://kharisova.nomoredomainsmonster.ru';
+export const BASE_URL = 'http://api.kharisova.nomoredomainsmonster.ru';
 
 export const register = (email, password) => {
     return fetch(`${BASE_URL}/signup`, {

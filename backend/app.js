@@ -45,6 +45,8 @@ app.use((req, res, next) => {
   return next();
 });
 
+
+
 mongoose.connect(DB_URL);
 
 app.use(requestLogger);
@@ -76,7 +78,8 @@ app.post('/signup', celebrate({
   }),
 }), createUser);
 
-// app.use(auth);
+app.use(cors());
+
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
 
