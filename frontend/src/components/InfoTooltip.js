@@ -1,7 +1,6 @@
 import React from 'react';
 import union from "../images/Union.svg";
 import error from "../images/autoUnion.svg";
-import autoUnion from "../images/autoUnion.svg";
 
 const InfoTooltip = (props) => {
     return (

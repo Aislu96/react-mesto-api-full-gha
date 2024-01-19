@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import logo from "../images/logo.svg";
-import {BrowserRouter, Link, NavLink, Route, Routes} from "react-router-dom";
+import {Link, Route, Routes} from "react-router-dom";
 import Menu from "./Menu";
 
 function Header({user, onSignOut, loggedIn, isMenuActive, showMenu}) {
