@@ -47,6 +47,12 @@ mongoose.connect(DB_URL);
 
 app.use(requestLogger);
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.post(
   '/signin',
   celebrate({
@@ -80,4 +86,6 @@ app.all('*', (req, res, next) => {
 });
 
 app.use(errorHandler);
-app.listen(PORT);
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
+});
