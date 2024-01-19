@@ -123,7 +123,7 @@ class Api {
 //     }
 // });
 const api = new Api({
-    url: 'http://api.kharisova.nomoredomainsmonster.ru',
+    url: 'https://api.kharisova.nomoredomainsmonster.ru',
 });
 
 export default api;
