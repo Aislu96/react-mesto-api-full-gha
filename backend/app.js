@@ -78,8 +78,6 @@ app.post('/signup', celebrate({
   }),
 }), createUser);
 
-app.use(cors());
-
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
 
